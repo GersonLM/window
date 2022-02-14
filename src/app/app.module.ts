@@ -7,7 +7,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { EscritorioComponent } from './components/escritorio/escritorio.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatSliderModule } from '@angular/material/slider';
+import { MatIconModule } from '@angular/material/icon';
 
 
 
@@ -22,7 +22,7 @@ import { MatSliderModule } from '@angular/material/slider';
     AppRoutingModule,
     FontAwesomeModule,
     BrowserAnimationsModule,
-    MatSliderModule
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

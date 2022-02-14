@@ -69,12 +69,17 @@ body {
 }
 
 .content__footer--acceso_rapido ul li{
-    background-color: aliceblue;
     height: 45px;
-    width: 58px;
+    width: 54px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.content__footer--acceso_rapido ul li:hover {
+    background-color: rgba(201, 201, 201, 0.158);
+}
+.icon_ar {
+    color: rgba(245, 241, 241, 0.959);
+    font-size: 19px;
+}
